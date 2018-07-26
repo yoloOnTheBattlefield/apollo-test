@@ -6,15 +6,10 @@ import gql from "graphql-tag";
 export const getSiteFarmers = gql`
   query($siteId: Float!) {
     getSiteFarmers(siteId: $siteId) {
-      error
       response {
         firstName
         lastName
-        role
-        roleName
         email
-        phoneNumber
-        siteId
         id
       }
     }

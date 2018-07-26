@@ -1,7 +1,7 @@
 export const farmer = {
   firstName: "Alex",
   lastName: "Mitchels",
-  famerId: 1,
+  id: 1,
   email: "email",
   time: "time"
 };
